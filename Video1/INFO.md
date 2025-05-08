@@ -12,9 +12,13 @@ Django REST Framework series - Setup and Models
 $ python3 -m venv venv-drf
 $ source venv-drf/bin/activate
 $ pip install -r requirements.txt
+```
+
+# Video 1 - Part 2
+
+```
+$ python manage.py populate_db
 
 $ python manage.py graph_models api > models.dot
 ```
-
-Current: 17:23
 
