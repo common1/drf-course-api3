@@ -128,3 +128,8 @@ $ python mange.py createsuperuser
 User: ubuntuuser
 Password: u***r
 ```
+
+# Video 7 - Part 2
+
+...
+
