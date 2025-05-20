@@ -1,10 +1,11 @@
+
 GET http://localhost:8000/products/ HTTP/1.1
 
 ###
 
 POST http://localhost:8000/products/ HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ3NjYwNDQzLCJpYXQiOjE3NDc2NjAxNDMsImp0aSI6ImYxYTlmZjA0MzIwMTQ3MjU4YWU3MTMyMjc5ZDFiZjEyIiwidXNlcl9pZCI6MX0.yKuVO3706MQJ-UxKsN7zQOx8IYklUSma3HUsU0E8KcE
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ3NzE5Njk4LCJpYXQiOjE3NDc3MTkzOTgsImp0aSI6IjBjYzA0ZjVkMjQ1ODQ0MGZiOGUzMDdiZjgzOGM3ZTU3IiwidXNlcl9pZCI6MX0.fXGQQ7PgFDNDvefimogRkbB-OXJVvhGP7wXbXQdx0iw
 
 {
   "name": "Television",
@@ -24,4 +25,7 @@ Content-Type: application/json
 }
 
 ###
+
+GET http://localhost:8000/user-orders/ HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ3NzE5Njk4LCJpYXQiOjE3NDc3MTkzOTgsImp0aSI6IjBjYzA0ZjVkMjQ1ODQ0MGZiOGUzMDdiZjgzOGM3ZTU3IiwidXNlcl9pZCI6MX0.fXGQQ7PgFDNDvefimogRkbB-OXJVvhGP7wXbXQdx0iw
 

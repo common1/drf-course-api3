@@ -218,5 +218,7 @@ urlpatterns = [
 JSON Web Token (JWT) Debugger
 [https://jwt.io/]
 
-Current: 18:12
+## Video 12 - Part 3
+
+...
 
