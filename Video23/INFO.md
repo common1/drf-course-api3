@@ -409,3 +409,7 @@ Viewset Permissions | Admin vs. Normal User in Django
 Creating Nested Objects | Overriding serializer create() method in Django REST Framework
 [https://www.youtube.com/watch?v=CAq7AKAT7Q0&list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t&index=23]
 
+## Video 23 - Part 2
+
+...
+
