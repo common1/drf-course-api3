@@ -9,6 +9,7 @@ class UserSerializer(serializers.ModelSerializer):
             'username',
             'email',
             'is_staff',
+            'is_superuser',
         )
 
 class ProductSerializer(serializers.ModelSerializer):
@@ -113,11 +114,3 @@ class ProductInfoSerializer(serializers.Serializer):
     count = serializers.IntegerField()
     max_price = serializers.FloatField()
 
-class UserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = (
-            'username',
-            'email',
-            'is_staff',
-        )

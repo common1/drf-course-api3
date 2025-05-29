@@ -423,3 +423,7 @@ Updating Nested Objects | ModelSerializer update() method in Django REST Framewo
 ModelSerializer Fields - Best Practices
 [https://www.youtube.com/watch?v=NgUARZNOuTY&list=PL-2EBeDYMIbTLulc9FSoAXhbmXpLq2l5t&index=25]
 
+## Video 25 - Part 2
+
+...
+
